@@ -1,8 +1,6 @@
+plugins:
+  - jekyll-feed
 title: CTRL+WATCH+PLAY
 description: Your source for gaming and tech insights.
 url: https://demonkingswarn.is-a.dev/podcast
 timezone: Asia/Kolkata
-
-feed:
-  path: rss.xml
-  limit: 10
