@@ -5,9 +5,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Welcome to CTRL+WATCH+PLAY, a podcast by Swarnaditya Singh, also known as DemonKingSwarn, an indie game developer and a 2D artist. Join us for gaming and tech insights.">
+    <meta name="keywords" content="CTRL+WATCH+PLAY, podcast, Swarnaditya Singh, DemonKingSwarn, indie game developer, 2D artist, gaming, tech insights">
+    <meta name="author" content="Swarnaditya Singh">
+
+    <meta property="og:title" content="CTRL+WATCH+PLAY">
+    <meta property="og:description" content="Join Swarnaditya Singh, aka DemonKingSwarn, for gaming and tech insights on the CTRL+WATCH+PLAY podcast.">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/912349706900897812/1162766525866975374/ctrl_watch_play.jpeg?ex=653d21b6&is=652aacb6&hm=df08e41009c3d9669875864f821afe23a375f16a69273e4e8764e26e41471d93&="> <!-- Replace with your shareable image URL -->
+    <meta property="og:url" content="https://demonkingswarn.is-a.dev/podcast"> <!-- Replace with your site's URL -->
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@DemonKingSwarn"> <!-- Replace with your Twitter handle -->
+    <meta name="twitter:title" content="CTRL+WATCH+PLAY">
+    <meta name="twitter:description" content="Join Swarnaditya Singh, aka DemonKingSwarn, for gaming and tech insights on the CTRL+WATCH+PLAY podcast.">
+
     <title>CTRL+WATCH+PLAY</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
+    <link rel="icon" href="https://media.discordapp.net/attachments/912349706900897812/1162766525866975374/ctrl_watch_play.jpeg?ex=653d21b6&is=652aacb6&hm=df08e41009c3d9669875864f821afe23a375f16a69273e4e8764e26e41471d93&=">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 </head>
 
@@ -24,7 +40,10 @@
             <p>Welcome to the very first episode of CTRL+WATCH+PLAY, your source for gaming and tech insights. We're excited to kick off this journey and share our passion with you.</p>
             <p>If you have any feedback or questions, feel free to reach out to us at <a href="mailto:ctrlwatchplay@gmail.com">ctrlwatchplay@gmail.com</a>.</p>
             <p>If you'd like to support our podcast, consider making a donation <a href="https://demonkingswarn.is-a.dev/donate" target="_blank" rel="noopener">here</a>.</p>
-            <iframe src="https://archive.org/download/e0_20231013/e0.mp3" frameborder="0" scrolling="no" class="audio-iframe"></iframe>
+            <audio id="audio-player" controls>
+                <source src="https://archive.org/download/e0_20231013/e0.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
         </div>
 
         <!-- Add other episodes here -->
